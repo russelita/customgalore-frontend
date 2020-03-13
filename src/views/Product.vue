@@ -78,7 +78,7 @@ export default {
   components: {
     HeaderCustomGalore,
     FooterCustomGalore,
-    RelatedProductCustomGalore,
+    // RelatedProductCustomGalore,
     carousel    
   },
   data() {
