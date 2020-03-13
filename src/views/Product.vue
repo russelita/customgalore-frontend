@@ -70,7 +70,7 @@
 import HeaderCustomGalore from '@/components/HeaderCustomGalore.vue'
 import FooterCustomGalore from '@/components/FooterCustomGalore.vue'
 import carousel from 'vue-owl-carousel'
-import RelatedProductCustomGalore from '@/components/RelatedProductCustomGalore.vue'
+// import RelatedProductCustomGalore from '@/components/RelatedProductCustomGalore.vue'
 import axios from 'axios'
 
 export default {
