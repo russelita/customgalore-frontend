@@ -1,4 +1,4 @@
-# elang
+# custom galore
 
 ## Project setup
 ```
