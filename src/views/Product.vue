@@ -59,7 +59,7 @@
         </div>
     </section>
     <!-- Product Shop Section End -->
-    <RelatedProductCustomGalore/>
+    <!-- <RelatedProductCustomGalore/> -->
     <FooterCustomGalore/>
   </div>
 </template>

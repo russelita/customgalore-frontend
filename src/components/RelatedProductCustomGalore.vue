@@ -104,6 +104,6 @@
 
 <script>
 export default {
-    name: 'RelatedProductCustomGalore',
+    // name: 'RelatedProductCustomGalore',
 }
 </script>
