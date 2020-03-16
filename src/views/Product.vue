@@ -107,7 +107,7 @@ export default {
   },
     mounted() {
         axios
-            .get('http://customgaloreindonesia.com/api/products', {
+            .get('https://customgaloreindonesia.com/api/products', {
                 params: {
                     id: this.$route.params.id
                 }
