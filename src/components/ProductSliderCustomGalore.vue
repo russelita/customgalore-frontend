@@ -51,7 +51,7 @@ export default {
   },
   mounted() {
     axios
-      .get("//customgaloreindonesia.com/api/products")
+      .get("//admin.customgaloreindonesia.com/api/products")
       .then(res => (this.products = res.data.data.data))
       // eslint-disable-next-line no-console
       .catch(err => console.log(err));
