@@ -7,7 +7,7 @@
           <carousel class="product-slider" :nav="false" :items="3" :dots="false" :autoplay="true">
             <div class="product-item">
               <div class="pi-pic">
-                <img src="img/tas batik (1).png" />
+                <img src="img/tas batik (1).jpg" />
                 <ul>
                   <li class="quick-view">
                     <router-link to="/product">+ Quick View</router-link>
@@ -25,7 +25,7 @@
             </div>
             <div class="product-item">
               <div class="pi-pic">
-                <img src="img/sammo leather clutch (1).png" />
+                <img src="img/sammo leather clutch (1).jpg" />
                 <ul>
                   <li class="quick-view">
                     <router-link to="/product2">+ Quick View</router-link>
@@ -43,7 +43,7 @@
             </div>
             <div class="product-item">
               <div class="pi-pic">
-                <img src="img/pliage phyton (1).png" />
+                <img src="img/pliage phyton (1).jpg" />
                 <ul>
                   <li class="quick-view">
                     <router-link to="/product3">+ Quick View</router-link>
@@ -61,7 +61,7 @@
             </div>
             <div class="product-item">
               <div class="pi-pic">
-                <img src="img/morgan clutch (1).png" />
+                <img src="img/morgan clutch (1).jpg" />
                 <ul>
                   <li class="quick-view">
                     <router-link to="/product4">+ Quick View</router-link>
@@ -79,7 +79,7 @@
             </div>
             <div class="product-item">
               <div class="pi-pic">
-                <img src="img/maria wallet (1).png" />
+                <img src="img/maria wallet (1).jpg" />
                 <ul>
                   <li class="quick-view">
                     <router-link to="/product5">+ Quick View</router-link>
@@ -97,7 +97,7 @@
             </div>
             <div class="product-item">
               <div class="pi-pic">
-                <img src="img/leather card case (1).png" />
+                <img src="img/leather card case (1).jpg" />
                 <ul>
                   <li class="quick-view">
                     <router-link to="/product6">+ Quick View</router-link>
@@ -115,7 +115,7 @@
             </div>
             <div class="product-item">
               <div class="pi-pic">
-                <img src="img/lamb skin bag (1).png" />
+                <img src="img/lamb skin bag (1).jpg" />
                 <ul>
                   <li class="quick-view">
                     <router-link to="/product7">+ Quick View</router-link>
@@ -133,7 +133,7 @@
             </div>
             <div class="product-item">
               <div class="pi-pic">
-                <img src="img/green card slot (1).png" />
+                <img src="img/green card slot (1).jpg" />
                 <ul>
                   <li class="quick-view">
                     <router-link to="/product8">+ Quick View</router-link>
@@ -151,7 +151,7 @@
             </div>
             <div class="product-item">
               <div class="pi-pic">
-                <img src="img/custom wedding bag.png" />
+                <img src="img/custom wedding bag.jpg" />
                 <ul>
                   <li class="quick-view">
                     <router-link to="/product9">+ Quick View</router-link>
@@ -169,7 +169,7 @@
             </div>
             <div class="product-item">
               <div class="pi-pic">
-                <img src="img/custom clutch (1).png" />
+                <img src="img/custom clutch (1).jpg" />
                 <ul>
                   <li class="quick-view">
                     <router-link to="/product10">+ Quick View</router-link>
@@ -187,7 +187,7 @@
             </div>
             <div class="product-item">
               <div class="pi-pic">
-                <img src="img/bridesmaid clutch (1).png" />
+                <img src="img/bridesmaid clutch (1).jpg" />
                 <ul>
                   <li class="quick-view">
                     <router-link to="/product11">+ Quick View</router-link>
@@ -205,7 +205,7 @@
             </div>
             <div class="product-item">
               <div class="pi-pic">
-                <img src="img/agenda cover (1).png" />
+                <img src="img/agenda cover (1).jpg" />
                 <ul>
                   <li class="quick-view">
                     <router-link to="/product12">+ Quick View</router-link>

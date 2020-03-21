@@ -40,14 +40,14 @@
                       @click="changeImage(thumbs[0])"
                       :class="thumbs[0] == gambar_default ? 'active' : '' "
                     >
-                      <img src="img/leather card case (1).png" alt />
+                      <img src="img/leather card case (1).jpg" alt />
                     </div>
                     <div
                       class="pt"
                       @click="changeImage(thumbs[1])"
                       :class="thumbs[1] == gambar_default ? 'active' : '' "
                     >
-                      <img src="img/leather card case (2).png" alt />
+                      <img src="img/leather card case (2).jpg" alt />
                     </div>
                   </carousel>
                 </div>
@@ -92,8 +92,8 @@ export default {
   },
   data() {
     return {
-      gambar_default: "img/leather card case (1).png",
-      thumbs: ["img/leather card case (1).png", "img/leather card case (2).png"]
+      gambar_default: "img/leather card case (1).jpg",
+      thumbs: ["img/leather card case (1).jpg", "img/leather card case (2).jpg"]
     };
   },
   methods: {

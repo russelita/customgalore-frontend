@@ -40,21 +40,21 @@
                       @click="changeImage(thumbs[0])"
                       :class="thumbs[0] == gambar_default ? 'active' : '' "
                     >
-                      <img src="img/pliage phyton (1).png" alt />
+                      <img src="img/pliage phyton (1).jpg" alt />
                     </div>
                     <div
                       class="pt"
                       @click="changeImage(thumbs[1])"
                       :class="thumbs[1] == gambar_default ? 'active' : '' "
                     >
-                      <img src="img/pliage phyton (2).png" alt />
+                      <img src="img/pliage phyton (2).jpg" alt />
                     </div>
                     <div
                       class="pt"
                       @click="changeImage(thumbs[2])"
                       :class="thumbs[2] == gambar_default ? 'active' : '' "
                     >
-                      <img src="img/pliage phyton (3).png" alt />
+                      <img src="img/pliage phyton (3).jpg" alt />
                     </div>
                   </carousel>
                 </div>
@@ -99,11 +99,11 @@ export default {
   },
   data() {
     return {
-      gambar_default: "img/pliage phyton (1).png",
+      gambar_default: "img/pliage phyton (1).jpg",
       thumbs: [
-        "img/pliage phyton (1).png",
-        "img/pliage phyton (2).png",
-        "img/pliage phyton (3).png"
+        "img/pliage phyton (1).jpg",
+        "img/pliage phyton (2).jpg",
+        "img/pliage phyton (3).jpg"
       ]
     };
   },

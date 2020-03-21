@@ -40,7 +40,7 @@
                       @click="changeImage(thumbs[0])"
                       :class="thumbs[0] == gambar_default ? 'active' : '' "
                     >
-                      <img src="img/custom wedding bag.png" alt />
+                      <img src="img/custom wedding bag.jpg" alt />
                     </div>
                   </carousel>
                 </div>
@@ -85,8 +85,8 @@ export default {
   },
   data() {
     return {
-      gambar_default: "img/custom wedding bag.png",
-      thumbs: ["img/custom wedding bag.png"]
+      gambar_default: "img/custom wedding bag.jpg",
+      thumbs: ["img/custom wedding bag.jpg"]
     };
   },
   methods: {

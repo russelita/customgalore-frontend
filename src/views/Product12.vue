@@ -40,14 +40,14 @@
                       @click="changeImage(thumbs[0])"
                       :class="thumbs[0] == gambar_default ? 'active' : '' "
                     >
-                      <img src="img/agenda cover (1).png" alt />
+                      <img src="img/agenda cover (1).jpg" alt />
                     </div>
                     <div
                       class="pt"
                       @click="changeImage(thumbs[1])"
                       :class="thumbs[1] == gambar_default ? 'active' : '' "
                     >
-                      <img src="img/agenda cover (2).png" alt />
+                      <img src="img/agenda cover (2).jpg" alt />
                     </div>
                   </carousel>
                 </div>
@@ -92,8 +92,8 @@ export default {
   },
   data() {
     return {
-      gambar_default: "img/agenda cover (1).png",
-      thumbs: ["img/agenda cover (1).png", "img/agenda cover (2).png"]
+      gambar_default: "img/agenda cover (1).jpg",
+      thumbs: ["img/agenda cover (1).jpg", "img/agenda cover (2).jpg"]
     };
   },
   methods: {
