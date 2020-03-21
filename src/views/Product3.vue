@@ -40,21 +40,21 @@
                       @click="changeImage(thumbs[0])"
                       :class="thumbs[0] == gambar_default ? 'active' : '' "
                     >
-                      <img src="img/tas batik (1).png" alt />
+                      <img src="img/pliage phyton (1).png" alt />
                     </div>
                     <div
                       class="pt"
                       @click="changeImage(thumbs[1])"
                       :class="thumbs[1] == gambar_default ? 'active' : '' "
                     >
-                      <img src="img/tas batik (2).png" alt />
+                      <img src="img/pliage phyton (2).png" alt />
                     </div>
                     <div
                       class="pt"
                       @click="changeImage(thumbs[2])"
                       :class="thumbs[2] == gambar_default ? 'active' : '' "
                     >
-                      <img src="img/tas batik (3).png" alt />
+                      <img src="img/pliage phyton (3).png" alt />
                     </div>
                   </carousel>
                 </div>
@@ -63,7 +63,7 @@
                 <div class="product-details text-left">
                   <div class="pd-title">
                     <span>custom example</span>
-                    <h3>Batik Bag</h3>
+                    <h3>Pliage Phyton Bag</h3>
                   </div>
                   <div class="quantity">
                     <a href="http://bit.ly/386YuTR" class="primary-btn pd-cart">Chat now</a>
@@ -99,11 +99,11 @@ export default {
   },
   data() {
     return {
-      gambar_default: "img/tas batik (1).png",
+      gambar_default: "img/pliage phyton (1).png",
       thumbs: [
-        "img/tas batik (1).png",
-        "img/tas batik (2).png",
-        "img/tas batik (3).png"
+        "img/pliage phyton (1).png",
+        "img/pliage phyton (2).png",
+        "img/pliage phyton (3).png"
       ]
     };
   },

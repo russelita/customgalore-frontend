@@ -1,5 +1,5 @@
 <template>
-  <div class="product">
+  <div class="product2">
     <HeaderCustomGalore />
     <!-- Breadcrumb Section Begin -->
     <div class="breacrumb-section text-left">
@@ -40,21 +40,21 @@
                       @click="changeImage(thumbs[0])"
                       :class="thumbs[0] == gambar_default ? 'active' : '' "
                     >
-                      <img src="img/tas batik (1).png" alt />
+                      <img src="img/sammo leather clutch (1).png" alt />
                     </div>
                     <div
                       class="pt"
                       @click="changeImage(thumbs[1])"
                       :class="thumbs[1] == gambar_default ? 'active' : '' "
                     >
-                      <img src="img/tas batik (2).png" alt />
+                      <img src="img/sammo leather clutch (2).png" alt />
                     </div>
                     <div
                       class="pt"
                       @click="changeImage(thumbs[2])"
                       :class="thumbs[2] == gambar_default ? 'active' : '' "
                     >
-                      <img src="img/tas batik (3).png" alt />
+                      <img src="img/sammo leather clutch (3).png" alt />
                     </div>
                   </carousel>
                 </div>
@@ -63,7 +63,7 @@
                 <div class="product-details text-left">
                   <div class="pd-title">
                     <span>custom example</span>
-                    <h3>Batik Bag</h3>
+                    <h3>Sammo Leather Clutch</h3>
                   </div>
                   <div class="quantity">
                     <a href="http://bit.ly/386YuTR" class="primary-btn pd-cart">Chat now</a>
@@ -90,7 +90,7 @@ import carousel from "vue-owl-carousel";
 // import RelatedProductCustomGalore from '@/components/RelatedProductCustomGalore.vue'
 
 export default {
-  name: "product",
+  name: "product2",
   components: {
     HeaderCustomGalore,
     FooterCustomGalore,
@@ -99,11 +99,11 @@ export default {
   },
   data() {
     return {
-      gambar_default: "img/tas batik (1).png",
+      gambar_default: "img/sammo leather clutch (1).png",
       thumbs: [
-        "img/tas batik (1).png",
-        "img/tas batik (2).png",
-        "img/tas batik (3).png"
+        "img/sammo leather clutch (1).png",
+        "img/sammo leather clutch (2).png",
+        "img/sammo leather clutch (3).png"
       ]
     };
   },

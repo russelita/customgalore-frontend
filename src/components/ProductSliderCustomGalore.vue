@@ -3,31 +3,225 @@
   <section class="women-banner spad">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-12 mt-5" v-if="products && products.length > 0">
+        <div class="col-lg-12 mt-5">
           <carousel class="product-slider" :nav="false" :items="3" :dots="false" :autoplay="true">
-            <div class="product-item" v-for="itemProduct in products" :key="itemProduct.id">
+            <div class="product-item">
               <div class="pi-pic">
-                <img v-bind:src="itemProduct.galleries[0].photo" alt />
+                <img src="img/tas batik (1).png" />
                 <ul>
                   <li class="quick-view">
-                    <router-link v-bind:to="'/product/'+itemProduct.id">+ Quick View</router-link>
+                    <router-link to="/product">+ Quick View</router-link>
                   </li>
                 </ul>
               </div>
               <div class="pi-text">
-                <router-link v-bind:to="'/product/'+itemProduct.id">
-                  <div class="catagory-name">{{ itemProduct.type }}</div>
+                <router-link to="/product">
+                  <div class="catagory-name">Batik Bag</div>
                 </router-link>
-                <router-link v-bind:to="'/product/'+itemProduct.id">
+                <router-link to="/product">
+                  <h5>Custom Example</h5>
+                </router-link>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="pi-pic">
+                <img src="img/sammo leather clutch (1).png" />
+                <ul>
+                  <li class="quick-view">
+                    <router-link to="/product2">+ Quick View</router-link>
+                  </li>
+                </ul>
+              </div>
+              <div class="pi-text">
+                <router-link to="/product2">
+                  <div class="catagory-name">Sammo Leather Clutch</div>
+                </router-link>
+                <router-link to="/product2">
+                  <h5>Custom Example</h5>
+                </router-link>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="pi-pic">
+                <img src="img/pliage phyton (1).png" />
+                <ul>
+                  <li class="quick-view">
+                    <router-link to="/product3">+ Quick View</router-link>
+                  </li>
+                </ul>
+              </div>
+              <div class="pi-text">
+                <router-link to="/product3">
+                  <div class="catagory-name">Pliage Phyton Bag</div>
+                </router-link>
+                <router-link to="/product3">
+                  <h5>Custom Example</h5>
+                </router-link>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="pi-pic">
+                <img src="img/morgan clutch (1).png" />
+                <ul>
+                  <li class="quick-view">
+                    <router-link to="/product4">+ Quick View</router-link>
+                  </li>
+                </ul>
+              </div>
+              <div class="pi-text">
+                <router-link to="/product4">
+                  <div class="catagory-name">Morgan Clutch</div>
+                </router-link>
+                <router-link to="/product4">
+                  <h5>Custom Example</h5>
+                </router-link>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="pi-pic">
+                <img src="img/maria wallet (1).png" />
+                <ul>
+                  <li class="quick-view">
+                    <router-link to="/product5">+ Quick View</router-link>
+                  </li>
+                </ul>
+              </div>
+              <div class="pi-text">
+                <router-link to="/product5">
+                  <div class="catagory-name">Maria Wallet</div>
+                </router-link>
+                <router-link to="/product5">
+                  <h5>Custom Example</h5>
+                </router-link>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="pi-pic">
+                <img src="img/leather card case (1).png" />
+                <ul>
+                  <li class="quick-view">
+                    <router-link to="/product6">+ Quick View</router-link>
+                  </li>
+                </ul>
+              </div>
+              <div class="pi-text">
+                <router-link to="/product6">
+                  <div class="catagory-name">Leather Card Case</div>
+                </router-link>
+                <router-link to="/product6">
+                  <h5>Custom Example</h5>
+                </router-link>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="pi-pic">
+                <img src="img/lamb skin bag (1).png" />
+                <ul>
+                  <li class="quick-view">
+                    <router-link to="/product7">+ Quick View</router-link>
+                  </li>
+                </ul>
+              </div>
+              <div class="pi-text">
+                <router-link to="/product7">
+                  <div class="catagory-name">Lamb Skin Bag</div>
+                </router-link>
+                <router-link to="/product7">
+                  <h5>Custom Example</h5>
+                </router-link>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="pi-pic">
+                <img src="img/green card slot (1).png" />
+                <ul>
+                  <li class="quick-view">
+                    <router-link to="/product8">+ Quick View</router-link>
+                  </li>
+                </ul>
+              </div>
+              <div class="pi-text">
+                <router-link to="/product8">
+                  <div class="catagory-name">Green Card Slot</div>
+                </router-link>
+                <router-link to="/product8">
+                  <h5>Custom Example</h5>
+                </router-link>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="pi-pic">
+                <img src="img/custom wedding bag.png" />
+                <ul>
+                  <li class="quick-view">
+                    <router-link to="/product9">+ Quick View</router-link>
+                  </li>
+                </ul>
+              </div>
+              <div class="pi-text">
+                <router-link to="/product9">
+                  <div class="catagory-name">Custom Wedding Bag</div>
+                </router-link>
+                <router-link to="/product9">
+                  <h5>Custom Example</h5>
+                </router-link>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="pi-pic">
+                <img src="img/custom clutch (1).png" />
+                <ul>
+                  <li class="quick-view">
+                    <router-link to="/product10">+ Quick View</router-link>
+                  </li>
+                </ul>
+              </div>
+              <div class="pi-text">
+                <router-link to="/product10">
+                  <div class="catagory-name">Custom Clutch</div>
+                </router-link>
+                <router-link to="/product10">
+                  <h5>Custom Example</h5>
+                </router-link>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="pi-pic">
+                <img src="img/bridesmaid clutch (1).png" />
+                <ul>
+                  <li class="quick-view">
+                    <router-link to="/product11">+ Quick View</router-link>
+                  </li>
+                </ul>
+              </div>
+              <div class="pi-text">
+                <router-link to="/product11">
+                  <div class="catagory-name">Bridesmaid Clutch</div>
+                </router-link>
+                <router-link to="/product11">
+                  <h5>Custom Example</h5>
+                </router-link>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="pi-pic">
+                <img src="img/agenda cover (1).png" />
+                <ul>
+                  <li class="quick-view">
+                    <router-link to="/product12">+ Quick View</router-link>
+                  </li>
+                </ul>
+              </div>
+              <div class="pi-text">
+                <router-link to="/product12">
+                  <div class="catagory-name">Agenda Cover</div>
+                </router-link>
+                <router-link to="/product12">
                   <h5>Custom Example</h5>
                 </router-link>
               </div>
             </div>
           </carousel>
-        </div>
-
-        <div class="col-lg-12" v-else>
-          <p>Data tidak ditemukan</p>
         </div>
       </div>
     </div>
@@ -37,24 +231,11 @@
 
 <script>
 import carousel from "vue-owl-carousel";
-import axios from "axios";
 
 export default {
   name: "ProductSliderCustomGalore",
   components: {
     carousel
-  },
-  data() {
-    return {
-      products: []
-    };
-  },
-  mounted() {
-    axios
-      .get("//admin.customgaloreindonesia.com/api/products")
-      .then(res => (this.products = res.data.data.data))
-      // eslint-disable-next-line no-console
-      .catch(err => console.log(err));
   }
 };
 </script>
@@ -64,7 +245,11 @@ export default {
   margin-right: 25px;
 }
 
-.pi-pic {
-  max-height: 278px;
+.pi-pic img {
+  max-height: 371px;
+}
+
+.catagory-name {
+  height: 40px;
 }
 </style>
