@@ -99,11 +99,11 @@ export default {
   },
   data() {
     return {
-      gambar_default: "img/sammo leather clutch (1).jpg",
+      gambar_default: "img/png/sammo leather clutch (1).png",
       thumbs: [
-        "img/sammo leather clutch (1).jpg",
-        "img/sammo leather clutch (2).jpg",
-        "img/sammo leather clutch (3).jpg"
+        "img/png/sammo leather clutch (1).png",
+        "img/png/sammo leather clutch (2).png",
+        "img/png/sammo leather clutch (3).png"
       ]
     };
   },

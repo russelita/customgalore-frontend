@@ -92,8 +92,8 @@ export default {
   },
   data() {
     return {
-      gambar_default: "img/agenda cover (1).jpg",
-      thumbs: ["img/agenda cover (1).jpg", "img/agenda cover (2).jpg"]
+      gambar_default: "img/png/agenda cover (1).png",
+      thumbs: ["img/png/agenda cover (1).png", "img/png/agenda cover (2).png"]
     };
   },
   methods: {

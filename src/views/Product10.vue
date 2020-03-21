@@ -92,8 +92,8 @@ export default {
   },
   data() {
     return {
-      gambar_default: "img/custom clutch (1).jpg",
-      thumbs: ["img/custom clutch (1).jpg", "img/custom clutch (2).jpg"]
+      gambar_default: "img/png/custom clutch (1).png",
+      thumbs: ["img/png/custom clutch (1).png", "img/png/custom clutch (2).png"]
     };
   },
   methods: {

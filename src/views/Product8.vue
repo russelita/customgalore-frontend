@@ -92,8 +92,11 @@ export default {
   },
   data() {
     return {
-      gambar_default: "img/green card slot (1).jpg",
-      thumbs: ["img/green card slot (1).jpg", "img/green card slot (2).jpg"]
+      gambar_default: "img/png/green card slot (1).png",
+      thumbs: [
+        "img/png/green card slot (1).png",
+        "img/png/green card slot (2).png"
+      ]
     };
   },
   methods: {

@@ -99,11 +99,11 @@ export default {
   },
   data() {
     return {
-      gambar_default: "img/bridesmaid clutch (1).jpg",
+      gambar_default: "img/png/bridesmaid clutch (1).png",
       thumbs: [
-        "img/bridesmaid clutch (1).jpg",
-        "img/bridesmaid clutch (2).jpg",
-        "img/bridesmaid clutch (3).jpg"
+        "img/png/bridesmaid clutch (1).png",
+        "img/png/bridesmaid clutch (2).png",
+        "img/png/bridesmaid clutch (3).png"
       ]
     };
   },
