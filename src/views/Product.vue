@@ -40,21 +40,21 @@
                       @click="changeImage(thumbs[0])"
                       :class="thumbs[0] == gambar_default ? 'active' : '' "
                     >
-                      <img src="img/png/tas batik (1).png" alt />
+                      <img src="img/tas batik (1).jpg" alt />
                     </div>
                     <div
                       class="pt"
                       @click="changeImage(thumbs[1])"
                       :class="thumbs[1] == gambar_default ? 'active' : '' "
                     >
-                      <img src="img/png/tas batik (2).png" alt />
+                      <img src="img/tas batik (2).jpg" alt />
                     </div>
                     <div
                       class="pt"
                       @click="changeImage(thumbs[2])"
                       :class="thumbs[2] == gambar_default ? 'active' : '' "
                     >
-                      <img src="img/png/tas batik (3).png" alt />
+                      <img src="img/tas batik (3).jpg" alt />
                     </div>
                   </carousel>
                 </div>
@@ -99,11 +99,11 @@ export default {
   },
   data() {
     return {
-      gambar_default: "img/tas batik (1).jpg",
+      gambar_default: "img/png/tas batik (1).png",
       thumbs: [
-        "img/tas batik (1).jpg",
-        "img/tas batik (2).jpg",
-        "img/tas batik (3).jpg"
+        "img/png/tas batik (1).png",
+        "img/png/tas batik (2).png",
+        "img/png/tas batik (3).png"
       ]
     };
   },
