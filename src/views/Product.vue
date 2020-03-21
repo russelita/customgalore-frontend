@@ -99,11 +99,11 @@ export default {
   },
   data() {
     return {
-      gambar_default: "img/tas batik (1).jpg",
+      gambar_default: "img/png/tas batik (1).png",
       thumbs: [
-        "img/tas batik (1).jpg",
-        "img/tas batik (2).jpg",
-        "img/tas batik (3).jpg"
+        "img/png/tas batik (1).jpg",
+        "img/png/tas batik (2).jpg",
+        "img/png/tas batik (3).jpg"
       ]
     };
   },
