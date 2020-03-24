@@ -13,9 +13,11 @@
               </h1>
               <p>
                 Do you have a great idea and just need some help getting it was made?
-                We are here for you! Let your imagination run we will design according to your wishes!
+                We are here for you! Let your imagination run
+                and we will design according to your wishes!
                 <br />Apakah Anda punya ide bagus dan membutuhkan bantuan untuk membuatnya?
-                Kami di sini untuk Anda! Biarkan imajinasi Anda berjalan kami akan merancang sesuai keinginan Anda!
+                Kami di sini untuk Anda! Biarkan imajinasi Anda berjalan
+                dan kami akan merancang sesuai keinginan Anda!
               </p>
               <a href="http://bit.ly/386YuTR" class="primary-btn">Chat Now</a>
             </div>
@@ -33,8 +35,10 @@
               </h1>
               <p>
                 Do you have a great idea and just need some help getting it was made?
-                We are here for you! Let your imagination run we will design according to your wishes!
-                <br />Kami di sini untuk Anda! Biarkan imajinasi Anda berjalan kami akan merancang sesuai keinginan Anda!
+                We are here for you! Let your imagination run
+                and we will design according to your wishes!
+                <br />Kami di sini untuk Anda! Biarkan imajinasi Anda berjalan
+                dan kami akan merancang sesuai keinginan Anda!
               </p>
               <a href="http://bit.ly/386YuTR" class="primary-btn">Chat Now</a>
             </div>
@@ -52,8 +56,10 @@
               </h1>
               <p>
                 Do you have a great idea and just need some help getting it was made?
-                We are here for you! Let your imagination run we will design according to your wishes!
-                <br />Kami di sini untuk Anda! Biarkan imajinasi Anda berjalan kami akan merancang sesuai keinginan Anda!
+                We are here for you! Let your imagination run
+                and we will design according to your wishes!
+                <br />Kami di sini untuk Anda! Biarkan imajinasi Anda berjalan
+                dan kami akan merancang sesuai keinginan Anda!
               </p>
               <a href="http://bit.ly/386YuTR" class="primary-btn">Chat Now</a>
             </div>
