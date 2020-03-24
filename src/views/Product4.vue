@@ -92,8 +92,8 @@ export default {
   },
   data() {
     return {
-      gambar_default: "img/png/morgan clutch (1).png",
-      thumbs: ["img/png/morgan clutch (1).png", "img/png/morgan clutch (2).png"]
+      gambar_default: "img/jpg/morgan clutch (1).jpg",
+      thumbs: ["img/jpg/morgan clutch (1).jpg", "img/jpg/morgan clutch (2).jpg"]
     };
   },
   methods: {

@@ -99,11 +99,11 @@ export default {
   },
   data() {
     return {
-      gambar_default: "img/png/lamb skin bag (1).png",
+      gambar_default: "img/jpg/lamb skin bag (1).jpg",
       thumbs: [
-        "img/png/lamb skin bag (1).png",
-        "img/png/lamb skin bag (2).png",
-        "img/png/lamb skin bag (3).png"
+        "img/jpg/lamb skin bag (1).jpg",
+        "img/jpg/lamb skin bag (2).jpg",
+        "img/jpg/lamb skin bag (3).jpg"
       ]
     };
   },

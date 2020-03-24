@@ -85,8 +85,8 @@ export default {
   },
   data() {
     return {
-      gambar_default: "img/png/custom wedding bag.png",
-      thumbs: ["img/png/custom wedding bag.png"]
+      gambar_default: "img/jpg/custom wedding bag.jpg",
+      thumbs: ["img/jpg/custom wedding bag.jpg"]
     };
   },
   methods: {

@@ -92,10 +92,10 @@ export default {
   },
   data() {
     return {
-      gambar_default: "img/png/leather card case (1).png",
+      gambar_default: "img/jpg/leather card case (1).jpg",
       thumbs: [
-        "img/png/leather card case (1).png",
-        "img/png/leather card case (2).png"
+        "img/jpg/leather card case (1).jpg",
+        "img/jpg/leather card case (2).jpg"
       ]
     };
   },

@@ -92,8 +92,8 @@ export default {
   },
   data() {
     return {
-      gambar_default: "img/png/maria wallet (1).png",
-      thumbs: ["img/png/maria wallet (1).png", "img/png/maria wallet (2).png"]
+      gambar_default: "img/jpg/maria wallet (1).jpg",
+      thumbs: ["img/jpg/maria wallet (1).jpg", "img/jpg/maria wallet (2).jpg"]
     };
   },
   methods: {

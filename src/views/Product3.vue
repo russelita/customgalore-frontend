@@ -99,11 +99,11 @@ export default {
   },
   data() {
     return {
-      gambar_default: "img/png/pliage phyton (1).png",
+      gambar_default: "img/jpg/pliage phyton (1).jpg",
       thumbs: [
-        "img/png/pliage phyton (1).png",
-        "img/png/pliage phyton (2).png",
-        "img/png/pliage phyton (3).png"
+        "img/jpg/pliage phyton (1).jpg",
+        "img/jpg/pliage phyton (2).jpg",
+        "img/jpg/pliage phyton (3).jpg"
       ]
     };
   },
