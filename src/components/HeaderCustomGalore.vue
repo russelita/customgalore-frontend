@@ -31,7 +31,7 @@
       </div>
     </header>
     <!-- Header End -->
-    <a href="http://bit.ly/386YuTR">
+    <a href="https://bit.ly/2QGpfc1">
       <img src="https://hantamo.com/free/whatsapp.svg" class="wabutton" alt="WhatsApp-Button" />
     </a>
   </div>
