@@ -67,7 +67,7 @@ export default {
 .copyright-reserved {
   font-family: "Didact Gothic", sans-serif;
 }
-.col-md-12 {
+.col-md-12 .col-lg-12 {
   margin-left: -90px;
 }
 </style>
