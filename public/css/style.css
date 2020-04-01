@@ -4157,9 +4157,15 @@ ol {
     }
 }
 
-@media (min-width: 992px) {
-    .col-lg-6 .col-md-10 {
+@media only screen and (min-width: 770px) and (max-width: 992px) {
+    .col-lg-6 {
         margin-left: -100px;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+    .col-md-10 {
+        margin-left: -80px;
     }
 }
 
