@@ -5,7 +5,7 @@
       <div class="container">
         <div class="inner-header">
           <div class="row">
-            <div class="col-lg-6 col-md-2 col-xs-12">
+            <div class="col-lg-6 col-md-2">
               <div class="logo">
                 <router-link to="/">
                   <a href="#">
@@ -19,7 +19,7 @@
       </div>
       <div class="header-top">
         <div class="container">
-          <div class="col-lg-5 col-md-1 col-xs-1">
+          <div class="col-lg-5 col-md-4 col-xs-4">
             <div class="ht-left">
               <div class="mail-service">
                 <i class="fa fa-envelope"></i> tasindo.lie@gmail.com
