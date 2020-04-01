@@ -5,7 +5,7 @@
       <div class="container">
         <div class="inner-header">
           <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-5">
               <div class="logo">
                 <router-link to="/">
                   <a href="#">
