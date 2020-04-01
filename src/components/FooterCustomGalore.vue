@@ -3,7 +3,7 @@
   <footer class="footer-section">
     <div class="container">
       <div class="row">
-        <div class="col-lg-5">
+        <div class="col-md-12">
           <div class="footer-left text-left">
             <div class="footer-logo">
               <a href="#">
