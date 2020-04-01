@@ -19,7 +19,7 @@
       </div>
       <div class="header-top">
         <div class="container">
-          <div class="col-lg-6 col-md-6">
+          <div class="col-lg-6 col-md-10">
             <div class="ht-left">
               <div class="mail-service">
                 <i class="fa fa-envelope"></i> tasindo.lie@gmail.com
@@ -66,7 +66,7 @@ export default {
 .header-top {
   font-family: "Didact Gothic", sans-serif;
 }
-.col-lg-6 .col-md-8 {
+.col-lg-6 .col-md-10 {
   margin-left: -90px;
 }
 </style>
