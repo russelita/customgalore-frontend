@@ -4086,6 +4086,10 @@ ol {
 /* Tablet Device: 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .col-lg-6 {
+        margin-left: -100px;
+    }
+
     .header-top .ht-right .login-panel {
         padding-left: 10px;
     }
@@ -4157,22 +4161,13 @@ ol {
     }
 }
 
-@media only screen and (min-width: 770px) and (max-width: 992px) {
-    .col-lg-6 {
-        margin-left: -100px;
-    }
-}
-
-@media only screen and (min-width: 500px) and (max-width: 768px) {
-    .col-md-10 {
-        margin-left: -80px;
-    }
-}
-
-
 /* Large Device: 480px */
 
 @media only screen and (max-width: 767px) {
+    .col-md-10 {
+        margin-left: -80px;
+    }
+
     .instagram-photo .insta-item {
         width: 50%;
         height: 300px;
