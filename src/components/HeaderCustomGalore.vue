@@ -5,7 +5,7 @@
       <div class="container">
         <div class="inner-header">
           <div class="row">
-            <div class="col-lg-8 col-md-2">
+            <div class="col-lg-6 col-md-2 col-xs-12">
               <div class="logo">
                 <router-link to="/">
                   <a href="#">
@@ -19,12 +19,14 @@
       </div>
       <div class="header-top">
         <div class="container">
-          <div class="ht-left">
-            <div class="mail-service">
-              <i class="fa fa-envelope"></i> tasindo.lie@gmail.com
-            </div>
-            <div class="phone-service">
-              <i class="fa fa-phone"></i> +6287881442513
+          <div class="col-lg-5 col-md-1 col-xs-1">
+            <div class="ht-left">
+              <div class="mail-service">
+                <i class="fa fa-envelope"></i> tasindo.lie@gmail.com
+              </div>
+              <div class="phone-service">
+                <i class="fa fa-phone"></i> +6287881442513
+              </div>
             </div>
           </div>
         </div>

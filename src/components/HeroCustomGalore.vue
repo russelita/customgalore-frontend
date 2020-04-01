@@ -1,23 +1,23 @@
 <template>
   <!-- Hero Section Begin -->
   <section class="hero-section">
-    <carousel class="hero-items" :items="1" :nav="false">
+    <carousel class="hero-items" :items="1" :nav="false" :autoplay="false">
       <div class="single-hero-items set-bg" style="background-image: url('img/hero-1.jpg')">
         <div class="container">
           <div class="row">
-            <div class="col-lg-5">
+            <div class="col-lg-6">
               <span></span>
-              <h1>
-                Custom Your Own
-                <br />Buat yang kamu inginkan
-              </h1>
+              <h1>Custom Corporate Gift</h1>
+              <h2>Gimmick Perusahaan Dengan Corporate Collor</h2>
+              <p style="font-style:italic; color:#800000; margin-bottom:15px;">
+                Bored with black, blue, brown, red gimmick?
+                Our Custom Gallore Project is here to answer your needs.
+                Whatever the design and color of your company identity, we are able to present it.
+              </p>
               <p>
-                Do you have a great idea and just need some help getting it was made?
-                We are here for you! Let your imagination run
-                and we will design according to your wishes!
-                <br />Apakah Anda punya ide bagus dan membutuhkan bantuan untuk membuatnya?
-                Kami di sini untuk Anda! Biarkan imajinasi Anda berjalan
-                dan kami akan merancang sesuai keinginan Anda!
+                Bosan dengan gimmick hitam, biru, coklat, merah?
+                Kami Custom Gallore Project hadir untuk menjawab kebutuhan anda.
+                Apapun design dan warna identitas perusahaan anda, kami mampu hadirkan.
               </p>
               <a href="http://bit.ly/386YuTR" class="primary-btn">Chat Now</a>
             </div>
@@ -27,18 +27,19 @@
       <div class="single-hero-items set-bg" style="background-image: url('img/hero-2.jpg')">
         <div class="container">
           <div class="row">
-            <div class="col-lg-5">
+            <div class="col-lg-6">
               <span></span>
-              <h1>
-                Custom Your Own
-                <br />Buat yang kamu inginkan
-              </h1>
+              <h1>Custom Corporate Gift</h1>
+              <h2>Gimmick Perusahaan Dengan Corporate Collor</h2>
+              <p style="font-style:italic; color:#800000; margin-bottom:0px;">
+                Bored with black, blue, brown, red gimmick?
+                Our Custom Gallore Project is here to answer your needs.
+                Whatever the design and color of your company identity, we are able to present it.
+              </p>
               <p>
-                Do you have a great idea and just need some help getting it was made?
-                We are here for you! Let your imagination run
-                and we will design according to your wishes!
-                <br />Kami di sini untuk Anda! Biarkan imajinasi Anda berjalan
-                dan kami akan merancang sesuai keinginan Anda!
+                Bosan dengan gimmick hitam, biru, coklat, merah?
+                Kami Custom Gallore Project hadir untuk menjawab kebutuhan anda.
+                Apapun design dan warna identitas perusahaan anda, kami mampu hadirkan.
               </p>
               <a href="http://bit.ly/386YuTR" class="primary-btn">Chat Now</a>
             </div>
@@ -48,18 +49,19 @@
       <div class="single-hero-items set-bg" style="background-image: url('img/hero-3.jpg')">
         <div class="container">
           <div class="row">
-            <div class="col-lg-5">
+            <div class="col-lg-6">
               <span></span>
-              <h1>
-                Custom Your Own
-                <br />Buat yang kamu inginkan
-              </h1>
+              <h1>Custom Corporate Gift</h1>
+              <h2>Gimmick Perusahaan Dengan Corporate Collor</h2>
+              <p style="font-style:italic; color:#800000; margin-bottom:0px;">
+                Bored with black, blue, brown, red gimmick?
+                Our Custom Gallore Project is here to answer your needs.
+                Whatever the design and color of your company identity, we are able to present it.
+              </p>
               <p>
-                Do you have a great idea and just need some help getting it was made?
-                We are here for you! Let your imagination run
-                and we will design according to your wishes!
-                <br />Kami di sini untuk Anda! Biarkan imajinasi Anda berjalan
-                dan kami akan merancang sesuai keinginan Anda!
+                Bosan dengan gimmick hitam, biru, coklat, merah?
+                Kami Custom Gallore Project hadir untuk menjawab kebutuhan anda.
+                Apapun design dan warna identitas perusahaan anda, kami mampu hadirkan.
               </p>
               <a href="http://bit.ly/386YuTR" class="primary-btn">Chat Now</a>
             </div>
@@ -85,8 +87,16 @@ export default {
 <style scoped>
 .hero-items h1 {
   font-size: 45px;
+  font-weight: bolder;
+  font-style: italic;
+  color: #800000;
+}
+.hero-items h2 {
+  margin-bottom: 15px;
+  color: #800000;
 }
 .single-hero-items {
   padding-top: 110px;
+  font-family: "Century Gothic", sans-serif;
 }
 </style>

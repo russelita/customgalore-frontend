@@ -101,6 +101,10 @@ export default {
 .product-thumbs .pt {
   margin-right: 14px;
 }
+.product-details h3 {
+  color: #800000;
+  font-style: italic;
+}
 .pt {
   max-height: 171px;
 }
