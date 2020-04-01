@@ -31,7 +31,7 @@
               <span></span>
               <h1>Custom Corporate Gift</h1>
               <h2>Gimmick Perusahaan Dengan Corporate Collor</h2>
-              <p style="font-style:italic; color:#800000; margin-bottom:0px;">
+              <p style="font-style:italic; color:#800000; margin-bottom:15px;">
                 Bored with black, blue, brown, red gimmick?
                 Our Custom Gallore Project is here to answer your needs.
                 Whatever the design and color of your company identity, we are able to present it.
@@ -53,7 +53,7 @@
               <span></span>
               <h1>Custom Corporate Gift</h1>
               <h2>Gimmick Perusahaan Dengan Corporate Collor</h2>
-              <p style="font-style:italic; color:#800000; margin-bottom:0px;">
+              <p style="font-style:italic; color:#800000; margin-bottom:15px;">
                 Bored with black, blue, brown, red gimmick?
                 Our Custom Gallore Project is here to answer your needs.
                 Whatever the design and color of your company identity, we are able to present it.
@@ -93,10 +93,9 @@ export default {
 }
 .hero-items h2 {
   margin-bottom: 15px;
-  color: #800000;
+  color: #000;
 }
 .single-hero-items {
   padding-top: 110px;
-  font-family: "Century Gothic", sans-serif;
 }
 </style>

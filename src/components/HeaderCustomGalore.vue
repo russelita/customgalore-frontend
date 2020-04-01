@@ -63,4 +63,7 @@ export default {
   right: 20px;
   z-index: 100;
 }
+.header-top {
+  font-family: "Didact Gothic", sans-serif;
+}
 </style>

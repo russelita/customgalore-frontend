@@ -62,5 +62,9 @@ export default {
 }
 .footer-left ul li {
   font-size: 21px;
+  font-family: "Didact Gothic", sans-serif;
+}
+.copyright-reserved {
+  font-family: "Didact Gothic", sans-serif;
 }
 </style>

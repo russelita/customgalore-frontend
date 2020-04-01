@@ -38,7 +38,8 @@
 html,
 body {
     height: 100%;
-    font-family: "Muli", sans-serif;
+    font-family: 'Didact Gothic',
+        sans-serif;
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
 }
@@ -52,7 +53,8 @@ h6 {
     margin: 0;
     color: #111111;
     font-weight: 400;
-    font-family: "Muli", sans-serif;
+    font-family: 'Didact Gothic',
+        sans-serif;
 }
 
 h1 {
@@ -81,8 +83,9 @@ h6 {
 
 p {
     font-size: 16px;
-    font-family: "Muli", sans-serif;
-    color: #636363;
+    font-family: 'Didact Gothic',
+        sans-serif;
+    color: #000;
     font-weight: 400;
     line-height: 26px;
     margin: 0 0 15px 0;
@@ -307,7 +310,8 @@ ol {
 
 .ht-right .lan-selector .ddcommon .ddTitle .ddArrow:before {
     content: "3";
-    font-family: "ElegantIcons";
+    font-family: 'Didact Gothic',
+        sans-serif;
     font-size: 14px;
     color: #636363;
     float: right;
@@ -470,7 +474,8 @@ ol {
     right: 11px;
     top: 10px;
     content: "3";
-    font-family: "ElegantIcons";
+    font-family: 'Didact Gothic',
+        sans-serif;
     font-size: 16px;
     color: #b2b2b2;
 }
@@ -1242,7 +1247,7 @@ ol {
 .product-item .pi-pic ul li a {
     font-size: 16px;
     font-weight: 700;
-    color: #252525;
+    color: #800000;
     display: block;
     padding: 16px 18px 12px 19px;
 }
@@ -1253,12 +1258,14 @@ ol {
 }
 
 .product-item .pi-text .catagory-name {
-    font-size: 10px;
-    color: #b2b2b2;
+    font-size: 20px;
+    color: #800000;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 10px;
+    font-family: 'Didact Gothic',
+        sans-serif;
 }
 
 .product-item .pi-text a {
