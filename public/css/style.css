@@ -4106,10 +4106,6 @@ ol {
         margin-left: 10px;
     }
 
-    .col-lg-6 .col-md-10 {
-        margin-left: -100px;
-    }
-
     .inner-header .advanced-search .category-btn {
         max-width: 40%;
         padding-right: 25px;
@@ -4158,6 +4154,12 @@ ol {
 
     .checkout-content input {
         margin-top: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-6 .col-md-10 {
+        margin-left: -100px;
     }
 }
 
