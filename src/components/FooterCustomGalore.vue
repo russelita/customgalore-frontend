@@ -68,6 +68,6 @@ export default {
   font-family: "Didact Gothic", sans-serif;
 }
 .col-md-12 {
-  margin-left: -70px;
+  margin-left: -90px;
 }
 </style>

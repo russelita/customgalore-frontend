@@ -66,7 +66,7 @@ export default {
 .header-top {
   font-family: "Didact Gothic", sans-serif;
 }
-.col-lg-6 .col-md-6 {
-  margin-left: -50px;
+.col-lg-6 .col-md-8 {
+  margin-left: -90px;
 }
 </style>
