@@ -4106,6 +4106,10 @@ ol {
         margin-left: 10px;
     }
 
+    .col-lg-6 .col-md-10 {
+        margin-left: -100px;
+    }
+
     .inner-header .advanced-search .category-btn {
         max-width: 40%;
         padding-right: 25px;
