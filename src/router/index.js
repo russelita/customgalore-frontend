@@ -13,6 +13,8 @@ import Product9 from "../views/Product9.vue";
 import Product10 from "../views/Product10.vue";
 import Product11 from "../views/Product11.vue";
 import Product12 from "../views/Product12.vue";
+import Privacy from "../views/Privacy.vue";
+import TermOfServices from "../views/TermOfServices.vue";
 
 Vue.use(VueRouter);
 
@@ -101,6 +103,18 @@ const routes = [{
     props: true,
     name: "Product",
     component: Product12
+  },
+  {
+    path: "/privacy",
+    props: true,
+    name: "Privacy",
+    component: Privacy
+  },
+  {
+    path: "/TermOfServices",
+    props: true,
+    name: "TermOfServices",
+    component: TermOfServices
   }
 ];
 

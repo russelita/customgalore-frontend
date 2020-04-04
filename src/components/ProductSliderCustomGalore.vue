@@ -254,7 +254,7 @@ export default {
 
 <style scoped>
 .product-slider h3 {
-  font-size: 15px;
+  font-size: 12px;
   color: #800000;
   font-style: italic;
   font-weight: bolder;

@@ -3,7 +3,7 @@
   <footer class="footer-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-lg-6">
           <div class="footer-left text-left">
             <div class="footer-logo">
               <a href="#">
@@ -36,12 +36,23 @@
     <div class="copyright-reserved">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-5">
             <div class="copyright-text">
               Copyright &copy;
-              2020 All rights reserved | Custom Galore
+              2020
+              <a
+                href="customgaloreindonesia.com"
+              >Custom Galore Project</a> | All Rights Reserved
             </div>
           </div>
+          <ul class="list-unstyled list-inline text-right mx-auto w-100">
+            <li class="list-inline-item">
+              <router-link to="/privacy">Privacy Policy</router-link>
+            </li>
+            <li class="list-inline-item">
+              <router-link to="/termofservices">Term Of Services</router-link>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -64,13 +75,10 @@ export default {
   font-size: 21px;
   font-family: "Didact Gothic", sans-serif;
 }
-.copyright-reserved {
+.copyright-reserved .copyright-text {
   font-family: "Didact Gothic", sans-serif;
 }
-.col-md-12 {
-  margin-left: -90px;
-}
-.col-lg-12 {
-  margin-left: -90px;
+a {
+  color: #b2b2b2;
 }
 </style>

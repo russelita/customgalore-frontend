@@ -5,7 +5,7 @@
       <div class="single-hero-items set-bg" style="background-image: url('img/hero-1.jpg')">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6 col-md-8">
+            <div class="col-lg-6 col-sm-10">
               <span></span>
               <h1>Custom Corporate Gift</h1>
               <h2>Gimmick Perusahaan Dengan Corporate Color</h2>
@@ -27,7 +27,7 @@
       <div class="single-hero-items set-bg" style="background-image: url('img/hero-2.jpg')">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6 col-md-8">
+            <div class="col-lg-6 col-sm-10">
               <span></span>
               <h1>Custom Corporate Gift</h1>
               <h2>Gimmick Perusahaan Dengan Corporate Color</h2>
@@ -49,7 +49,7 @@
       <div class="single-hero-items set-bg" style="background-image: url('img/hero-3.jpg')">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6 col-md-8">
+            <div class="col-lg-6 col-sm-10">
               <span></span>
               <h1>Custom Corporate Gift</h1>
               <h2>Gimmick Perusahaan Dengan Corporate Color</h2>

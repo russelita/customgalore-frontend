@@ -1245,7 +1245,7 @@ ol {
 }
 
 .product-item .pi-pic ul li a {
-    font-size: 16px;
+    font-size: 10px;
     font-weight: 700;
     color: #800000;
     display: block;
@@ -1258,12 +1258,11 @@ ol {
 }
 
 .product-item .pi-text .catagory-name {
-    font-size: 20px;
+    font-size: 10px;
     color: #800000;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin-bottom: 10px;
     font-family: 'Didact Gothic',
         sans-serif;
 }
@@ -3944,6 +3943,14 @@ ol {
 /* ------------------------------ Responsive Media Styles ---------------------------- */
 
 @media only screen and (min-width: 1200px) and (max-width: 1920px) {
+    .col-lg-6 {
+        margin-left: -85px;
+    }
+
+    .col-lg-5 {
+        margin-left: -85px;
+    }
+
     .inner-header .advanced-search .input-group button {
         right: -14px;
     }
@@ -4086,10 +4093,6 @@ ol {
 /* Tablet Device: 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .col-lg-6 {
-        margin-left: -100px;
-    }
-
     .header-top .ht-right .login-panel {
         padding-left: 10px;
     }
@@ -4164,10 +4167,6 @@ ol {
 /* Large Device: 480px */
 
 @media only screen and (max-width: 767px) {
-    .col-md-10 {
-        margin-left: -80px;
-    }
-
     .instagram-photo .insta-item {
         width: 50%;
         height: 300px;
