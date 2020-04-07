@@ -48,7 +48,7 @@
           <ul class="list-unstyled list-inline text-right mx-auto w-100">
             <li class="list-inline-item">
               <router-link to="/privacy">Privacy Policy</router-link>
-            </li>
+            </li> "|"
             <li class="list-inline-item">
               <router-link to="/termofservices">Term Of Services</router-link>
             </li>
