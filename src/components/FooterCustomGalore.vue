@@ -3,7 +3,7 @@
   <footer class="footer-section">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-5">
           <div class="footer-left text-left">
             <div class="footer-logo">
               <a href="#">
@@ -48,7 +48,7 @@
           <ul class="list-unstyled list-inline text-right mx-auto w-100">
             <li class="list-inline-item">
               <router-link to="/privacy">Privacy Policy</router-link>
-            </li> "|"
+            </li>|
             <li class="list-inline-item">
               <router-link to="/termofservices">Term Of Services</router-link>
             </li>

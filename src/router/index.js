@@ -13,6 +13,7 @@ import Product9 from "../views/Product9.vue";
 import Product10 from "../views/Product10.vue";
 import Product11 from "../views/Product11.vue";
 import Product12 from "../views/Product12.vue";
+import Product13 from "../views/Product13.vue";
 import Privacy from "../views/Privacy.vue";
 import TermOfServices from "../views/TermOfServices.vue";
 
@@ -103,6 +104,12 @@ const routes = [{
     props: true,
     name: "Product",
     component: Product12
+  },
+  {
+    path: "/product13",
+    props: true,
+    name: "Product",
+    component: Product13
   },
   {
     path: "/privacy",

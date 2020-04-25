@@ -3943,10 +3943,6 @@ ol {
 /* ------------------------------ Responsive Media Styles ---------------------------- */
 
 @media only screen and (min-width: 1200px) and (max-width: 1920px) {
-    .col-lg-6 {
-        margin-left: -85px;
-    }
-
     .col-lg-5 {
         margin-left: -85px;
     }

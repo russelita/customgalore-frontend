@@ -7,6 +7,25 @@
           <carousel class="product-slider" :nav="false" :items="3" :dots="false" :autoplay="true">
             <div class="product-item">
               <div class="pi-pic">
+                <img src="img/Masker Bahan Scuba.jpg" />
+                <ul>
+                  <li class="quick-view">
+                    <router-link to="/product13">+ Quick View</router-link>
+                  </li>
+                </ul>
+              </div>
+              <div class="pi-text">
+                <router-link to="/product">
+                  <div class="catagory-name">Jasa Laser Masker</div>
+                </router-link>
+                <router-link to="/product">
+                  <h3>Custom Example</h3>
+                  <h4>Contoh pesanan</h4>
+                </router-link>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="pi-pic">
                 <img src="img/tas batik (1).jpg" />
                 <ul>
                   <li class="quick-view">
